@@ -1,60 +1,154 @@
+
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>أحمد المسعودي</title>
+<title>أحمد المسعودي | الموقع الرسمي</title>
+<meta name="description" content="الموقع الرسمي لأحمد المسعودي - إعلامي، مصور، مقدم تغطيات، تصوير درون، وتصميم بوسترات.">
+
 <style>
+*{box-sizing:border-box}
 body{
 margin:0;
-font-family:Arial,sans-serif;
-background:#111;
+font-family:Tahoma,Arial,sans-serif;
+background:#05070d;
 color:#fff;
+}
+.hero{
+min-height:100vh;
+padding:35px 18px;
+display:flex;
+align-items:center;
+justify-content:center;
 text-align:center;
-padding:40px;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.9)),
+url("IMG_4901.jpeg") center/cover no-repeat;
+}
+.box{
+max-width:900px;
+padding:28px;
+border-radius:28px;
+background:rgba(0,0,0,.62);
+border:1px solid #d4af37;
+box-shadow:0 0 35px rgba(212,175,55,.25);
+}
+.profile{
+width:170px;
+height:170px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #d4af37;
+box-shadow:0 0 25px rgba(212,175,55,.6);
 }
 h1{
+font-size:42px;
 color:#d4af37;
-font-size:38px;
+margin:18px 0 8px;
 }
-p{
+.subtitle{
 font-size:20px;
-line-height:1.8;
+line-height:1.9;
+color:#f1f1f1;
 }
-a{
+.btn{
 display:block;
-margin:15px auto;
+max-width:360px;
+margin:12px auto;
 padding:15px;
-max-width:300px;
-background:#d4af37;
-color:#111;
+border-radius:15px;
 text-decoration:none;
-border-radius:12px;
 font-weight:bold;
+background:#d4af37;
+color:#07111f;
+}
+.section{
+max-width:1000px;
+margin:auto;
+padding:45px 18px;
+text-align:center;
+}
+h2{
+font-size:30px;
+color:#d4af37;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+margin-top:22px;
+}
+.card{
+background:rgba(255,255,255,.08);
+border:1px solid rgba(212,175,55,.35);
+border-radius:18px;
+padding:22px;
+font-size:18px;
 }
 footer{
-margin-top:50px;
-color:#888;
+text-align:center;
+padding:25px;
+background:#02040a;
+color:#aaa;
+}
+@media(max-width:700px){
+h1{font-size:32px}
+.subtitle{font-size:18px}
+.grid{grid-template-columns:1fr}
+.profile{width:145px;height:145px}
 }
 </style>
 </head>
+
 <body>
+
+<section class="hero">
+<div class="box">
+<img class="profile" src="IMG_4901.jpeg" alt="أحمد المسعودي">
 
 <h1>أحمد المسعودي</h1>
 
-<p>
-إعلامي وصانع محتوى ومصور ومقدم برامج.<br>
-مرحبًا بكم في موقعي الرسمي.
+<p class="subtitle">
+إعلامي وصانع محتوى ومصور ومقدم تغطيات<br>
+نحو محتوى احترافي يعكس هويتك ويصل إلى جمهورك بأفضل صورة
 </p>
 
-<a href="https://bio.site/AhmedAlMasoudi">🌐 Bio Site</a>
+<a class="btn" href="https://wa.me/966555450432">💬 تواصل واتساب</a>
+<a class="btn" href="https://www.snapchat.com/add/s2030na">👻 سناب شات: s2030na</a>
+<a class="btn" href="https://www.tiktok.com/@s2030na">🎵 تيك توك: @s2030na</a>
+<a class="btn" href="https://bio.site/AhmedAlMasoudi">🌐 جميع الروابط</a>
+</div>
+</section>
 
-<a href="https://www.snapchat.com/add/s2030na">👻 Snapchat</a>
+<section class="section">
+<h2>من أنا</h2>
+<p class="subtitle">
+أحمد المسعودي، مهتم بالإعلام والتصوير والتغطيات الميدانية، أقدم محتوى إعلامي احترافي للفعاليات والمناسبات والتقارير المرئية.
+</p>
+</section>
 
-<a href="https://www.tiktok.com/@s2030na">🎵 TikTok</a>
+<section class="section">
+<h2>خدماتنا</h2>
+<div class="grid">
+<div class="card">📸 تصوير احترافي</div>
+<div class="card">🎥 تغطيات إعلامية</div>
+<div class="card">🚁 تصوير جوي بالدرون</div>
+<div class="card">📰 إعداد تقارير إعلامية</div>
+<div class="card">🎙️ لقاءات ميدانية</div>
+<div class="card">🎨 تصميم بوسترات</div>
+</div>
+</section>
+
+<section class="section">
+<h2>رسالتنا</h2>
+<p class="subtitle">
+نصنع لك حضورًا إعلاميًا مميزًا، ونحوّل لحظاتك إلى محتوى يستحق أن يُرى.
+</p>
+</section>
 
 <footer>
-© أحمد المسعودي 2026
+© 2026 أحمد المسعودي | جميع الحقوق محفوظة
 </footer>
 
 </body>
